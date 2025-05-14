@@ -51,7 +51,7 @@ python postman_gui.py
 
 ## GUI Features
 
-![Postman Collection Generator GUI](images gui\gui.png)
+![Postman Collection Generator GUI](https://github.com/takatin31/Postman-Collection-Generator/blob/master/images%20gui/gui.png)
 
 The GUI includes:
 
