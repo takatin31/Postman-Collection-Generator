@@ -324,9 +324,6 @@ def create_postman_collection(service_info, project_name, model_map):
             },
             'response': []
         }
-        
-        if request_name == 'All Signatures Multiple Filters':
-            print(method)
 
         # Add query parameters if any
         # Add query parameters if any
