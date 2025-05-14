@@ -259,7 +259,7 @@ def create_postman_collection(service_info, project_name, model_map):
         'variable': [
             {
                 'key': 'baseUrl',
-                'value': 'https://mdpa-11837.domad.local',
+                'value': 'https://base-url',
                 'type': 'string'
             }
         ]
@@ -418,9 +418,9 @@ def main():
     # Create a main collection that will contain all projects
     main_collection = {
         'info': {
-            'name': 'MDPA API Services',
+            'name': 'API Services',
             '_postman_id': str(uuid.uuid4()),
-            'description': 'Complete collection of all MDPA API services',
+            'description': 'Complete collection of all API services',
             'schema': 'https://schema.getpostman.com/json/collection/v2.1.0/collection.json'
         },
         'item': [],
@@ -437,7 +437,7 @@ def main():
         'variable': [
             {
                 'key': 'baseUrl',
-                'value': 'https://mdpa-11837.domad.local',
+                'value': 'https://base-url',
                 'type': 'string'
             },
             {
@@ -508,7 +508,7 @@ def main():
                 'variable': [
                     {
                         'key': 'baseUrl',
-                        'value': 'https://mdpa-11837.domad.local',
+                        'value': 'https://base-url',
                         'type': 'string'
                     },
                     {
