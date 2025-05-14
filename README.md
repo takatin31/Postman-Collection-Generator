@@ -69,7 +69,6 @@ The GUI includes:
    - Open output directory after generation completes
 
 4. **Status Updates**:
-   - Real-time status indicator
    - Error notifications
    - Completion confirmation
 
